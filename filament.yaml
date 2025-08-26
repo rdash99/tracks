@@ -6,12 +6,17 @@ packages:
   - 'firefox'
   - 'libreoffice-fresh'
   - 'libreoffice-fresh-en-gb'
+  - 'sssd'
+  - 'krb5'
+  - 'curl'
+  - 'openssh'
   
 
 aur-packages:
   - 'pycharm-professional'
   - 'rider'
   - 'visual-studio-code-bin'
+  - 'xrdp'
 
 
 commands:
