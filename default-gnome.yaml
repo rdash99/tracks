@@ -9,7 +9,6 @@ packages:
   - 'gnome-initial-setup'
   - 'filesystem-blend'
   - 'firefox'
-  - 'steam'
   - 'fprintd'
 
 aur-packages:
