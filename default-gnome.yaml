@@ -11,6 +11,8 @@ packages:
   - 'firefox'
   - 'steam'
   - 'fprintd'
+  - 'jetbrains-toolbox'
+  - 'pycharm-professional'
 
 services:
   - 'fprintd'
