@@ -9,6 +9,7 @@ packages:
   - 'gnome-initial-setup'
   - 'filesystem-blend'
   - 'firefox'
+  - 'steam'
   - 'fprintd'
 
 services:
