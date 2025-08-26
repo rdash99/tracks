@@ -11,6 +11,8 @@ packages:
   - 'firefox'
   - 'steam'
   - 'fprintd'
+
+aur-packages:
   - 'jetbrains-toolbox'
   - 'pycharm-professional'
 
