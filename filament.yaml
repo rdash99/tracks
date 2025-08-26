@@ -3,29 +3,17 @@ impl: 'https://github.com/rdash99/tracks/raw/main'
 track: 'default-gnome'
 
 packages:
-  - 'gnome-shell-extension-dash-to-dock'
-  - 'gnome-shell-extension-blur-my-shell'
-  - 'gnome-shell-extension-appindicator'
-  - 'gnome-initial-setup'
-  - 'filesystem-blend'
   - 'firefox'
-  - 'fprintd'
+  - 'libreoffice-fresh'
+  - 'libreoffice-fresh-en-gb'
+  
 
 aur-packages:
-  - 'jetbrains-toolbox'
   - 'pycharm-professional'
+  - 'rider'
+  - 'visual-studio-code-bin'
 
-
-services:
-  - 'fprintd'
 
 commands:
-  - 'find /usr/share/metainfo ! -name "org.freedesktop.appstream.cli.metainfo.xml" ! -name "org.freedesktop.appstream.compose.metainfo.xml" ! -name "org.gnome.Software.Plugin.Flatpak.metainfo.xml" ! -name "org.gnome.Software.Plugin.Fwupd.metainfo.xml"  -type f -exec rm -f {} +'
-  - 'rm -f /usr/share/applications/stoken-gui.desktop'
-  - 'rm -f /usr/share/applications/stoken-gui-small.desktop'
-  - 'rm -f /usr/share/applications/qvidcap.desktop'
-  - 'rm -f /usr/share/applications/qv4l2.desktop'
-  - 'rm -f /usr/share/applications/bvnc.desktop'
-  - 'rm -f /usr/share/applications/electron*.desktop'
-  - 'rm -f /usr/share/applications/avahi-discover.desktop'
-  - 'rm -f /usr/share/applications/bssh.desktop'
+  - 'user create-container ubuntu ubuntu-24.04-lts'
+  - 'user associate apt ubuntu'
