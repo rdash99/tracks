@@ -4,11 +4,12 @@ track: 'blendos-base'
 
 packages:
   - 'cinnamon'
+  - 'firefox'
   - 'papirus-icon-theme'
   - 'xed'
   - 'evince'
   - 'totem'
-  - 'blueberry'
+  - 'blueman'
   - 'gnome-terminal'
   - 'lightdm'
   - 'lightdm-gtk-greeter'
