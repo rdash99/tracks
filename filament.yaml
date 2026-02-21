@@ -2,7 +2,9 @@ impl: 'https://github.com/blend-os/tracks/raw/main'
 
 track: 'default-gnome'
 
-# packages:
+packages:
+  - 'linux-zen'
+  - 'linux-zen-headers'
   # - 'libreoffice-fresh'
   # - 'libreoffice-fresh-en-gb'
   # - 'sssd'
