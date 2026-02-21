@@ -3,22 +3,21 @@ impl: 'https://github.com/rdash99/tracks/raw/main'
 track: 'default-gnome'
 
 packages:
-  - 'firefox'
   - 'libreoffice-fresh'
-  - 'libreoffice-fresh-en-gb'
-  - 'sssd'
-  - 'krb5'
-  - 'curl'
-  - 'openssh'
+  # - 'libreoffice-fresh-en-gb'
+  # - 'sssd'
+  # - 'krb5'
+  # - 'curl'
+  # - 'openssh'
   
 
-aur-packages:
-  - 'pycharm-professional'
-  - 'rider'
-  - 'visual-studio-code-bin'
-  - 'xrdp'
+# aur-packages:
+#   - 'pycharm-professional'
+#   - 'rider'
+#   - 'visual-studio-code-bin'
+#   - 'xrdp'
 
 
-commands:
-  - 'user create-container ubuntu ubuntu-24.04-lts'
-  - 'user associate apt ubuntu'
+# commands:
+#   - 'user create-container ubuntu ubuntu-24.04-lts'
+#   - 'user associate apt ubuntu'
