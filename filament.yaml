@@ -2,8 +2,8 @@ impl: 'https://github.com/rdash99/tracks/raw/main'
 
 track: 'default-gnome'
 
-packages:
-  - 'libreoffice-fresh'
+# packages:
+  # - 'libreoffice-fresh'
   # - 'libreoffice-fresh-en-gb'
   # - 'sssd'
   # - 'krb5'
